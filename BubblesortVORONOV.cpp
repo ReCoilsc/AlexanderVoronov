@@ -17,7 +17,7 @@ void bubbleSort(T arr[], int arrLength) //реализация сортиров�
 }
 int main()
 {
-	int arr[] = { 1,9,7,4,11 };// для int
+	int arr[] = { 1,90,7,42,11 };// для int
 	int size_arr = sizeof(arr) / sizeof(arr[0]);
 	std::cout << "size_arr = " << size_arr << std::endl;
 
@@ -27,7 +27,7 @@ int main()
 		std::cout << arr[i] << " ";
 	cout << std::endl;
 
-	double arr2[] = { 1.5, 9.5, 7.5, 4.5, 11.5, 100.0, 7.0 };//для double
+	double arr2[] = { 1.5, 9.1, 2.5, 80.4, 13.5, 101.0, 3.0 };//для double
 	int size_arr2 = sizeof(arr2) / sizeof(arr2[0]);
 	cout << "size_arr = " << size_arr2 << std::endl;
 
