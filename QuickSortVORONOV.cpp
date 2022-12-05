@@ -5,7 +5,6 @@
 template <typename T>
 void quickSort(T arr[], int idx_start, int idx_end)//функция для сортировки
 {
-    //srand(time(NULL));
     int idx_pivot = rand() % 5;//рандомно выбирается индекс опорного элемента
 
     int pivot = arr[idx_pivot];// сам опорный элемент
